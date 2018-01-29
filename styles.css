@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  background-image: url(vintageclock.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Rammetto One', cursive;
+  font-size: 3em;
+  color: #f8f8ff;
+}
+
+#navbar {
+  display: block;
+  float: left;
+  clear: both;
+  margin: 30px;
+  text-align: center;
+}
+h2, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  color: #eeeeee;
+}
+#list1{
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+  float: left;
+  margin: 0.6%;
+  font-family: 'Monoton', cursive;
+  font-size: 2em;
+  float: left;
+}
+#list2{
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+  float: left;
+  margin: 3%;
+  font-family: 'Monoton', cursive;
+  font-size: 2em;
+  float: right;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+footer {
+  float: left;
+  clear: both;
+  margin: 0 auto;
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 2.2em;
+}
